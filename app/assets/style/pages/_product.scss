@@ -2,8 +2,11 @@
     ul {
         @include flexbox('', '');
 
+        li{
+            width: 50%;
+        }
         img {
-            max-width: 50vw;
+            width: 100%;
         }
     }
 }

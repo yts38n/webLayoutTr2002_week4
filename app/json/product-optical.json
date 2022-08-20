@@ -4,84 +4,84 @@
             "id": 0,
             "name": "BJ41600S",
             "imgUrl": "./assets/images/product-1.png",
-            "price": 3490,
+            "price": "NTD3,490",
             "colors": ["5F3E2D", "B75929"]
         },
         {
             "id": 1,
             "name": "BJ41600S",
             "imgUrl": "./assets/images/product-2.png",
-            "price": 3490,
+            "price": "NTD3,490",
             "colors": ["5F3E2D", "B75929"]
         },
         {
             "id": 2,
             "name": "BJ41600S",
             "imgUrl": "./assets/images/product-3.png",
-            "price": 3490,
+            "price": "NTD3,490",
             "colors": ["5F3E2D", "B75929"]
         },
         {
             "id": 3,
             "name": "BJ41600S",
             "imgUrl": "./assets/images/product-4.png",
-            "price": 3490,
+            "price": "NTD3,490",
             "colors": ["5F3E2D", "B75929"]
         },
         {
             "id": 4,
             "name": "BJ41600S",
             "imgUrl": "./assets/images/product-5.png",
-            "price": 3490,
+            "price": "NTD3,490",
             "colors": ["5F3E2D", "B75929"]
         },
         {
             "id": 5,
             "name": "BJ41600S",
             "imgUrl": "./assets/images/product-6.png",
-            "price": 3490,
+            "price": "NTD3,490",
             "colors": ["5F3E2D", "B75929"]
         },
         {
             "id": 6,
             "name": "BJ41600S",
             "imgUrl": "./assets/images/product-1.png",
-            "price": 3490,
+            "price": "NTD3,490",
             "colors": ["5F3E2D", "B75929"]
         },
         {
             "id": 7,
             "name": "BJ41600S",
             "imgUrl": "./assets/images/product-2.png",
-            "price": 3490,
+            "price": "NTD3,490",
             "colors": ["5F3E2D", "B75929"]
         },
         {
             "id": 8,
             "name": "BJ41600S",
             "imgUrl": "./assets/images/product-3.png",
-            "price": 3490,
+            "price": "NTD3,490",
             "colors": ["5F3E2D", "B75929"]
         },
         {
             "id": 9,
             "name": "BJ41600S",
             "imgUrl": "./assets/images/product-4.png",
-            "price": 3490,
+            "price": "NTD3,490",
             "colors": ["5F3E2D", "B75929"]
         },
         {
             "id": 10,
             "name": "BJ41600S",
             "imgUrl": "./assets/images/product-5.png",
-            "price": 3490,
+            "price": "NTD3,490",
             "colors": ["5F3E2D", "B75929"]
         },
         {
             "id": 11,
             "name": "BJ41600S",
             "imgUrl": "./assets/images/product-6.png",
-            "price": 3490,
+            "price": "NTD3,490",
             "colors": ["5F3E2D", "B75929"]
         }
     ]
