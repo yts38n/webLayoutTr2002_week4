@@ -47,7 +47,7 @@ init();
 
 //預設頁面載入
 function init() {
-	axios.get("https://raw.githubusercontent.com/webLayoutTr2002_week4/blob/main/app/json/product-optical.json")
+	axios.get("https://raw.githubusercontent.com/yts38n/webLayoutTr2002_week4/main/app/json/product-optical.json")
 		.then(res => {
 			data = res.data.data;
 			console.log(data);
