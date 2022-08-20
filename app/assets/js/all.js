@@ -47,14 +47,14 @@ init();
 
 //預設頁面載入
 function init() {
-  axios.get("./app/json/product-optical.json")
-    .then(res => {
-      data = res.data.data;
-      console.log(data);
-    })
-    .catch(error => {
-      console.log(error);
-    });
+	axios.get("https://raw.githubusercontent.com/webLayoutTr2002_week4/blob/main/app/json/product-optical.json")
+		.then(res => {
+			data = res.data.data;
+			console.log(data);
+		})
+		.catch(error => {
+			console.log(error);
+		});
 };
 
 //寫入頁面
