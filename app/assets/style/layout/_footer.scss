@@ -1,0 +1,83 @@
+footer {
+    background: $red-400;
+    color: $white;
+}
+
+.linkText {
+    color: $white;
+}
+
+.menu {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+
+    @include flexbox('sb', '');
+
+    @include media-sm {
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+}
+
+.contact {
+    font-size: 2.25rem;
+
+    li {
+        margin-bottom: 0.5rem;
+    }
+
+    @include media-sm {
+        font-size: 1rem;
+    }
+}
+
+.social {
+    @include flexbox('fe', '');
+
+    li {
+        max-width: 3rem;
+        margin-left: 2rem;
+
+        @include media-md {
+            max-width: 2.5rem;
+            margin-left: 1rem;
+        }
+
+        @include media-sm {
+            max-width: 1.5rem;
+            margin-left: 0.5rem;
+        }
+    }
+}
+
+.copyright {
+    padding: 2rem 0;
+    border-top: 1px solid $white;
+
+    @include flexbox('sb', '');
+
+    ul {
+        @include flexbox('fe', '');
+
+        li {
+            margin-left: 3rem;
+
+            @include media-sm {
+                margin-left: 0;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        @include media-sm {
+            display: block;
+        }
+    }
+
+    @include media-sm {
+        padding: 1rem 0;
+
+        p {
+            margin-bottom: 0.5rem;
+        }
+    }
+}

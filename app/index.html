@@ -1,0 +1,141 @@
+---
+title: 眼鏡形象網站
+layout: ./app/ejs/layout.ejs
+engine: ejs
+current: index
+---
+
+<header class="header-index">
+    <div class="container banner container-sm">
+        <h1 class="h1">Promise-Desert 2020 早春系列</h1>
+        <span>看得清，才能看得遠</span>
+        <a href="#" class="btn">立即購買</a>
+    </div>
+</header>
+
+<main>
+    <section class="section-index intro">
+        <div class="container">
+            <h2 class="h2">用專業的心，做專業的事</h2>
+            <ul class="intro__wrap">
+                <li>
+                    <img src="./assets/images/home-section2-1.png" alt="">
+                    <h3 class="h3">單一價格</h3>
+                    <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+                </li>
+                <li>
+                    <img src="./assets/images/home-section2-2.png" alt="">
+                    <h3 class="h3">20 分鐘即可取件</h3>
+                    <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+                </li>
+                <li>
+                    <img src="./assets/images/home-section2-3.png" alt="">
+                    <h3 class="h3">安心售後服務</h3>
+                    <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+                </li>
+                <li>
+                    <img src="./assets/images/home-sectioin2-4.png" alt="">
+                    <h3 class="h3">關於鏡片</h3>
+                    <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section-index">
+        <div class="container classic">
+            <h2 class="h2">經典系列鏡框</h2>
+            <ul class="classic__wrap">
+                <li>
+                    <img src="./assets/images/home-section3-1.png" alt="OPTICAL">
+                    <a href="#" class="linkText">OPTICAL</a>
+                </li>
+                <li>
+                    <img src="./assets/images/home-section3-2.png" alt="SUNGLASSES">
+                    <a href="#" class="linkText">SUNGLASSES</a>
+                </li>
+                <li>
+                    <img src="./assets/images/home-section3-3.png" alt="FUNCTIONAL">
+                    <a href="#" class="linkText">FUNCTIONAL</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section-index brand">
+        <div class="container ">
+            <h2 class="h2">聯名設計鏡框</h2>
+            <ul class="brand__wrap">
+                <li>
+                    <img src="./assets/images/home-section4-1.png" alt="DOUBLE A+">
+                    <img src="./assets/images/home-section4-1-sm.png" alt="DOUBLE A+" class="display-sm">
+                    <a href="#" class="linkText">DOUBLE A+</a>
+                </li>
+                <li>
+                    <img src="./assets/images/home-section4-2.png" alt="YOUTH">
+                    <img src="./assets/images/home-section4-2-sm.png" alt="YOUTH" class="display-sm">
+                    <a href="#" class="linkText">YOUTH</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section-index">
+        <div class="container feedback">
+            <h2 class="h2">顧客推薦</h2>
+            <ul class="feedback__wrap">
+                <li>
+                    <img src="./assets/images/home-section5-1.png" alt="Jessy">
+                    <div class="feedback__wrap__item">
+                        <p>Jessy</p>
+                        <p>眼鏡品質優良，下次還會想來這邊購買！</p>
+                        <time datetime="2021/06/20">2021/06/20</time>
+                    </div>
+                </li>
+                <li>
+                    <img src="./assets/images/home-section5-2.png" alt="凱倫">
+                    <div class="feedback__wrap__item">
+                        <p>凱倫</p>
+                        <p>做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+                        <time datetime="2021/04/18">2021/04/18</time>
+                    </div>
+                </li>
+                <li>
+                    <img src="./assets/images/home-section5-3.png" alt="悠悠">
+                    <div class="feedback__wrap__item">
+                        <p>悠悠</p>
+                        <p>謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+                        <time datetime="2020/12/25">2020/12/25</time>
+                    </div>
+                </li>
+                <li>
+                    <img src="./assets/images/home-section5-4.png" alt="Kyuan">
+                    <div class="feedback__wrap__item">
+                        <p>Kyuan</p>
+                        <p>服務很好，品質沒有任何問題，非常喜歡。</p>
+                        <time datetime="2020/10/31">2020/10/31</time>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section-index opinion">
+        <div class="opinion__wrap">
+            <h2 class="h2">聯絡我們</h2>
+            <p>我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+            <form action="#" validate>
+                <label for="name" class="label">姓名</label>
+                <input type="text" id="name" placeholder="陳小明" required>
+                <label for="phone" class="label">聯絡電話</label>
+                <input type="text" id="phone" placeholder="0912-345-678" required>
+                <label for="email" class="label">電子郵件</label>
+                <input type="text" id="email" placeholder="example@email.com" required>
+                <label for="suggestion" class="label">意見反應</label>
+                <textarea id="suggestion" placeholder="請輸入您的意見" col=11></textarea>
+                <label for="agree">
+                    <input type="checkbox" name="" id="agree">
+                    <span>我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</span>
+                </label>
+                <button type="submit" class="btn btnSend">確認送出</button>
+            </form>
+        </div>
+
+    </section>
+</main>

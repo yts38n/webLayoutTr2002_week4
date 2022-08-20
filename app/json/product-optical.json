@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "name": "BJ41600S",
+            "imgUrl": "./assets/images/produc-1.png",
+            "price": 3490,
+            "colors": ["#5F3E2D", "#B75929"]
+        },
+        {
+            "id": 1,
+            "name": "BJ41600S",
+            "imgUrl": "./assets/images/produc-2.png",
+            "price": 3490,
+            "colors": ["#5F3E2D", "#B75929"]
+        },
+        {
+            "id": 2,
+            "name": "BJ41600S",
+            "imgUrl": "./assets/images/produc-3.png",
+            "price": 3490,
+            "colors": ["#5F3E2D", "#B75929"]
+        },
+        {
+            "id": 3,
+            "name": "BJ41600S",
+            "imgUrl": "./assets/images/produc-4.png",
+            "price": 3490,
+            "colors": ["#5F3E2D", "#B75929"]
+        },
+        {
+            "id": 4,
+            "name": "BJ41600S",
+            "imgUrl": "./assets/images/produc-5.png",
+            "price": 3490,
+            "colors": ["#5F3E2D", "#B75929"]
+        },
+        {
+            "id": 5,
+            "name": "BJ41600S",
+            "imgUrl": "./assets/images/produc-6.png",
+            "price": 3490,
+            "colors": ["#5F3E2D", "#B75929"]
+        }
+    ]
+}

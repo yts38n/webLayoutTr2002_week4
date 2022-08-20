@@ -1,0 +1,8 @@
+.header-product{
+    ul{
+        @include flexbox('','');
+        img{
+            max-width: 50vw;
+        }
+    }
+}
