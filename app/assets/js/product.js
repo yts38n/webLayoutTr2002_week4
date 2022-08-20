@@ -2,7 +2,7 @@ let path = window.location.pathname;
 let data = [];
 const productList = document.querySelector('.productList');
 
-if (path.startsWith("/product") && path.endsWith(".html")) {
+if (path.startsWith("/webLayoutTr2002_week4/product") && path.endsWith(".html")) {
     init();
 }
 
