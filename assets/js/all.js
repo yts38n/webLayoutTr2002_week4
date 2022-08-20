@@ -41,7 +41,7 @@ var data = [{
 init(); //預設頁面載入
 
 function init() {
-  axios.get("./app/json/product-optical.json").then(function (res) {
+  axios.get("https://github.com/yts38n/webLayoutTr2002_week4/blob/gh-pages/json/product-optical.json").then(function (res) {
     data = res.data.data;
     console.log(data);
   })["catch"](function (error) {
