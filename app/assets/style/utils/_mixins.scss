@@ -21,6 +21,9 @@
         @if $justify=='fe' {
             justify-content: flex-end;
         };
+        @if $justify=='fs' {
+            justify-content: flex-start;
+        };
         @if $justify=='sb' {
             justify-content: space-between;
         };
