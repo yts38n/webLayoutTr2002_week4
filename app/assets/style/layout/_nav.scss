@@ -71,6 +71,10 @@
         color: $black;
         font-size: 2rem;
         padding: 1.5rem 0;
+
+        &:hover{
+            background-color: $gray-300;
+        }
     }
 
     .showCurrent {
@@ -103,5 +107,46 @@
 
     @include media-sm {
         display: none;
+    }
+}
+
+.pagination {
+    margin-bottom: 5rem;
+
+    ul {
+        @include flexbox('c', '');
+
+        li {
+            border: 1px solid $gray-700;
+
+            &:last-child {
+                background-color: $gray-100;
+            }
+        }
+    }
+
+    .page-control {
+        color: $gray-700;
+        font-size: 1.1875rem;
+        padding: 0.6875rem 0.75rem;
+    }
+
+    .page-link {
+        color: $gray-700;
+        font-size: 1.1875rem;
+        padding: 0.75rem 1rem;
+
+        &:hover{
+            background-color: $gray-300;
+        }
+    }
+
+    .active {
+        background-color: $black;
+        border: 1px solid $black;
+
+        .page-link {
+            color: $white;
+        }
     }
 }
