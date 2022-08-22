@@ -13,6 +13,13 @@
     }
 }
 
+.container-md {
+    @include media-md {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
 .container-sm {
     @include media-sm {
         max-width: 100%;
@@ -21,7 +28,7 @@
 
 .linkText {
     position: relative;
-    
+
     &:after {
         content: '';
         position: absolute;
@@ -49,19 +56,19 @@
     &:hover {
         transform: translateX(0.5rem);
 
-        @include media-sm{
+        @include media-sm {
             transform: translateY(-0.5rem);
         }
     }
 }
 
-.btn{
+.btn {
     color: $white;
     border: none;
     background-color: $red-400;
     cursor: pointer;
 
-    &:hover{
+    &:hover {
         background-color: $red-700;
     }
 }
